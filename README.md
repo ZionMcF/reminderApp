@@ -85,3 +85,8 @@ The app will connect to parse to allow users to login to an account where they c
   - (Create/POST) Make new list
 - New list screen
   - (Create/POST) Make new list to be displayed on home screen
+
+
+###Update 11/8
+
+-login screen has been added
