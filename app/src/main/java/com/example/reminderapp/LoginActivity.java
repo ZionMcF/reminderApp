@@ -10,6 +10,9 @@ import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.parse.LogInCallback;
+import com.parse.ParseUser;
+
 public class LoginActivity extends AppCompatActivity {
 
     public static final String TAG = "LoginActivity";
@@ -22,22 +25,6 @@ public class LoginActivity extends AppCompatActivity {
         startActivity(i);
     }
 
-    private void loginUser(String username, String password){
-        Log.i(TAG, "Attempting to login user " + username);
-
-        ParseUser.logInInBackground(username, password, new LogInCallback() {
-            @Override
-            public void done(ParseUser user, com.parse.ParseException e) {
-                if(e != null){
-                    Log.e(TAG, "Issue with login", e);
-                    return;
-                }
-                goMainActivity();
-                Toast.makeText(LoginActivity.this, "Success!", Toast.LENGTH_SHORT).show();
-            }
-
-        });
-    }
 
     private void loginUser(String username, String password){
         Log.i(TAG, "Attempting to login user " + username);
