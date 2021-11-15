@@ -30,9 +30,12 @@ The app will connect to parse to allow users to login to an account where they c
 
 **Required Must-have Stories**
 
-* User is able to succesfully sign in
-* User is able to view current list of tasks
-* User is able to create list of tasks for future dates
+- [x] User is able to succesfully sign in
+
+- [x] User is able to view current list of tasks
+
+- [x] User is able to create list of tasks for future dates
+
 **Optional Nice-to-have Stories**
 
 * ...
