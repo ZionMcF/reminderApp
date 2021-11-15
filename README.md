@@ -87,6 +87,12 @@ The app will connect to parse to allow users to login to an account where they c
   - (Create/POST) Make new list to be displayed on home screen
 
 
-###Update 11/8
+### Update 11/8
 
 -login screen has been added
+
+### Update 11/15
+
+-Heres a walkthrough of what we have so far:
+
+<img src="https://github.com/ZionMcF/reminderApp/blob/master/walkthrough1.gif" width=250><br>
